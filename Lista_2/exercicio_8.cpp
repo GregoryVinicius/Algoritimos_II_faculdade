@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 8. Elabore um programa em C que peça três números ao utilizador, e que indique qual dos três é o
 maior.

@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 6. Dado 3 valores (X, Y, Z) que representam os lados de um triangulo, verifique se estes valores
 formam um triangulo eqüilátero, isósceles ou escaleno.

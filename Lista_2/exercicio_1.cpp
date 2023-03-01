@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 1. Criar um programa em C que calcule e imprima a área de um losango.
 Formula: (diagonal maior * diagonal menor) dividido por 2

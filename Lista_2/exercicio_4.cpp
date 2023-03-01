@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
 /*
 4. Entrar com a razão de uma PG e o valor do 1º termo. Calcular e imprimir o 5o termo.
 Formula: quintotermo = primeirotermo * razão (quintaposicao – 1)

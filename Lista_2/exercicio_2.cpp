@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 2. Entrar com os valores dos catetos de um triângulo retângulo e imprimir a hipotenusa.
 Formula: hipotenusa = raiz (b2 + c2);

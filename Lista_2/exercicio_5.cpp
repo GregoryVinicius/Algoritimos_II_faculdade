@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 5. Faça um programa em C que leia 5 valores e determine o menor deles.
 */

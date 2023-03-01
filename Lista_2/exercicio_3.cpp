@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 3. Entrar com a razão de uma PA e o valor do 1º termo. Calcule e imprima o 10o termo.
 Formula: decimotermo = primeirotermo + (posição desejada – 1) * razão
