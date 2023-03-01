@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
 
 /*
 1. Escreva um algoritmo que calcule o diâmetro, a área e a circunferência de um círculo, sabendo

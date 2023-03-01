@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 4. Ler dois números inteiros e imprimir a soma.
 */

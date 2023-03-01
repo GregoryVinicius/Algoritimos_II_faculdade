@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 5. Entrar com dois números e imprimir a média aritmética
 */

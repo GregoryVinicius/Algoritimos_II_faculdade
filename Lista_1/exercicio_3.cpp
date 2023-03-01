@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 3. Elabore um Algoritmo para converter uma temperatura em graus Celsius para Fahrenheit (ºF=32
 + 1.8ºC).

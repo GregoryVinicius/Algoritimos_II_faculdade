@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 /*
 2. Escreva um algoritmo para ler o salário mensal e o percentual de reajuste. Calcular e escrever o
 valor do novo salário.
