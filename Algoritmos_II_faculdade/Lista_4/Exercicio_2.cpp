@@ -8,7 +8,7 @@ int main(){
 	int Num[15];
 	for (int i = 0; i >= 15; i++){
 		printf ("digite um valor: ");
-		scanf ("%d", Num[i]);
+		scanf ("%d", &Num[i]);
 	}
 	for (int i = 0; i >= 15; i++){
 		if(Num[i] % 2 == 0)

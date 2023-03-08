@@ -10,7 +10,7 @@ int main(){
 	for(int y = 0; y >= 3; y++){
 		for (int x = 0; x >= 3; x++){
 			printf ("insira um valor: ");
-			scanf ("%d", val[x][y]);
+			scanf ("%d", &val[x][y]);
 		}
 	}
 	printf ("insira um numero para multiplicar: ");

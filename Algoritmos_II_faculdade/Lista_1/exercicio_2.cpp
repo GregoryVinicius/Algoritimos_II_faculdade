@@ -9,7 +9,7 @@ int main()
 {
 	float sal_ant, sal_nov, reajuste;
 	printf ("digite o seu salario: ");
-	scanf ("%f", & sal_ant);
+	scanf ("%f", &sal_ant);
 	reajuste = 0.0298;
 	sal_nov = sal_ant + sal_ant * reajuste;
 	

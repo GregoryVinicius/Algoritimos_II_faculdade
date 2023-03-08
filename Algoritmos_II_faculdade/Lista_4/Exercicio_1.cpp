@@ -10,11 +10,11 @@ int main(){
 	int soma[5];
 	for(int i = 0; i <= 5; i++){
 		printf ("informe um valor: ");
-		scanf ("%d", x[i]);
+		scanf ("%d", &x[i]);
 	}
 	for(int j = 0; j <= 5; j++){
 		printf ("informe um valor: ");
-		scanf ("%d", y[j]);
+		scanf ("%d", &y[j]);
 	}
 	for(int l = 0; l <= 5; l++){
 		soma[l] = x[l] + y[l];
