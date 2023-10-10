@@ -50,12 +50,22 @@ void imprimir(Pilha *p){
 	printf("__\n");
 }
 
+int getMin(Pilha *p){
+	
+}
+
+int getMax(Pilha *p){
+	
+}
+
 int menu(Pilha *pilha){
 	int opcao;
 	printf("1. Adicionar na pilha\n");
 	printf("2. Remover da pilha\n");
 	printf("3. Mostrar pilha\n");
-	printf("4. Sair\n");
+	printf("4. Pegar minimo\n");
+	printf("5. Pegar maximo\n");
+	printf("6. Sair\n");
 	scanf("%d", &opcao);
 	
 	if(opcao == 1){
@@ -68,6 +78,10 @@ int menu(Pilha *pilha){
 		printf("\nO valor %d foi removido da lista\n", aux);
 	}else if(opcao == 3){
 		imprimir(pilha);
+	}else if(opcao == 4){
+		
+	}else if(opcao == 5){
+		
 	}
 	return opcao;
 }
@@ -79,7 +93,7 @@ int main(){
 	int opcao = 0;
 	for(;;){
 		int opcao = menu(&pilha);
-		if(opcao == 4)
+		if(opcao == 6)
 		break;
 	}
 	return 0;

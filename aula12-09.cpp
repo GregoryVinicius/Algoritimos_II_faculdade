@@ -78,7 +78,7 @@ void adicionarMeio(No **lista, int posicao, int valor){
 	}	
 }
 
-//implementar remover()
+
 void remover(No **lista, int valor){
 	No *aux = *lista;
 	if(aux != NULL){
@@ -98,10 +98,10 @@ void remover(No **lista, int valor){
 		}
 	}
 }
-/*	
+
 void menu(No **lista){
 	int opcaoUsuario, valor, aux;
-	printf("-----MENU-----\n1. inserir no Inicio\n2. inserir no meio\n3. inserir no fim\n4. remover");
+	printf("-----MENU-----\n1. inserir no Inicio\n2. inserir no meio\n3. inserir no fim\n4. remover\n");
 	scanf("%d", &opcaoUsuario);
 	
 	if(opcaoUsuario == 1){
@@ -114,7 +114,7 @@ void menu(No **lista){
 		scanf("%d", &valor);
 		
 		printf("O valor sera inserido depois de qual valor: ");
-		scanf("%d". &aux);
+		scanf("%d", &aux);
 		
 		adicionarMeio(&lista, aux, valor);
 	}else if(opcaoUsuario == 3){
@@ -129,11 +129,11 @@ void menu(No **lista){
 		remover(&lista, valor);
 	}
 }
-	*/
+
 int main(){
 	No *lista = NULL;
 	
-	//menu(&lista);
+	menu(lista);
 	
 	imprimirLista(lista);
 	
